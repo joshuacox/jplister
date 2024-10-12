@@ -1,0 +1,9 @@
+#!/usr/bin/env -S java --source 11
+import java.util.List;
+
+void main() {
+  var listOne = List.of("a", "b", "c");
+  var listTwo = List.of(1, 2, 3);
+  System.out.println(listOne.getFirst());
+  System.out.println(listTwo.getFirst());
+}
