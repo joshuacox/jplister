@@ -1,4 +1,4 @@
-#!/usr/bin/env -S java --source 22 --enable-preview
+#!/usr/bin/env -S java --source 22
 import java.util.List;
 
 void main() {
