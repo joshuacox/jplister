@@ -2,8 +2,8 @@
 import java.util.List;
 
 void main() {
-  var listOne = List.of("a", "b", "c");
-  var listTwo = List.of(1, 2, 3);
+  var listOne = List.<String>of("a", "b", "c");
+  var listTwo = List.<Integer>of(1, 2, 3);
   System.out.println(listOne.getFirst());
   System.out.println(listTwo.getFirst());
 }
